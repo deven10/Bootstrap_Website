@@ -2,5 +2,45 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: green;
+}
+
+#nav-bar{
+    position: sticky;
+    z-index: 10;
+    top: 0;
+}
+
+.navbar-nav{
+    /* background-color: green; */
+    margin-left: auto;
+    /* padding-right: 20px; */
+}
+
+.navbar{
+    background-image: linear-gradient( to right, #a517ba, #5f1782) ;
+}
+
+.navbar-brand img{
+    padding-left: 20px;
+    height: 40px;
+}
+
+/* .navbar-nav li{
+     padding: 0 10px; 
+} */
+
+.navbar-nav li a{
+    color: #fff !important;
+    font-weight: 600;
+    float: right;
+    text-align: left;
+}
+
+.fa-bars{
+    color: #fff;
+    font-size: 30px !important;
+}
+
+.navbar-toggler{
+    outline: none !important; 
 }
