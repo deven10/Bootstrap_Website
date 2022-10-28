@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 #nav-bar{
     position: sticky;
     z-index: 10;
@@ -43,4 +47,87 @@
 
 .navbar-toggler{
     outline: none !important; 
+}
+
+/*--------banner section------------*/
+
+#banner{
+    background-image: linear-gradient( to right, #a517ba, #5f1782);
+    /* background-color: green; */
+    color: #fff;
+    padding-top: 5%;
+}
+
+.promo-title{
+    font-size: 40px;
+    margin-top: 100px;
+    font-weight: 600;
+}
+
+.play-btn{
+    width: 45px;
+    margin:20px;
+}
+
+#banner a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.bottom-img{
+    width: 100%;
+}
+
+/* ------- services section ---------- */
+
+#services{
+    padding: 80px 0px;
+}
+
+.service-img{
+    width: 100px;
+    margin-top: 20px;
+}
+
+.services{
+    /* background-color: green; */
+    padding: 20px;
+    /* text-align: left; */
+}
+
+.services h4{
+    text-transform: uppercase;
+    /* font-size: 30px; */
+    padding: 5px;
+    margin-top: 25px;
+}
+
+.title::before{
+    content: '';
+    height: 5px;
+    width: 200px;
+    background-color: #7b1798;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    transform: translateY(63px);
+}
+
+.title::after{
+    content: '';
+    height: 10px;
+    width: 50px;
+    background-color: #7b1798;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    transform: translateY(8px);
+}
+
+#services .btn-primary{
+    box-shadow: none;
+    border: none;
+    border-radius: 20px;
+    padding: 8px 25px;
+    background-image: linear-gradient( to right, #a517ba, #5f1782);
 }
