@@ -81,7 +81,8 @@ html{
 /* ------- services section ---------- */
 
 #services{
-    padding: 80px 0px;
+    padding-top: 90px;
+    padding-bottom: 80px;
 }
 
 .service-img{
@@ -130,4 +131,128 @@ html{
     border-radius: 20px;
     padding: 8px 25px;
     background-image: linear-gradient( to right, #a517ba, #5f1782);
+}
+
+/* ----about-us section------ */
+#about-us{
+    /* padding: 50px 0px; */
+    padding-top: 90px;
+    padding-bottom: 50px;
+    background-color: #f8f9fa;
+}
+
+.about-title{
+    margin-top: 8%;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+#about-us ul li{
+    margin: 10px 0px;
+    /* background-color: green; */
+}
+
+#about-us ul{
+    margin-left: 20px;
+    /* background-color: pink; */
+}
+
+/* ------Testimonials------- */
+
+#testimonials{
+    /* margin: 100px 0px; */
+    padding-top: 90px;
+    padding-bottom: 40px;
+}
+
+.testimonials{
+    border-left: 4px solid #7b1798;
+    margin: 50px 0;
+}
+
+.testimonials img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin: 0 10px;
+}
+
+.user-details{
+    display: inline-block;
+    font-size: 12px;
+}
+
+/* ----- social media section------- */
+
+#social-media{
+    background-color: #f8f9fa;
+    padding: 100px 0;
+}
+
+#social-media p{
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.social-icons img{
+    width: 60px;
+    transition: 0.5s;
+}
+.social-icons a:hover img{
+    transform: translateY(-10px);
+}
+
+/*  Footer Section */
+
+#footer{
+    background-image: linear-gradient( to right, #a517ba, #5f1782);
+    border-top: none;
+    color:#fff;
+}
+
+.footer-img{
+    width: 100%;
+}
+
+.footer-box{
+    padding: 20px 50px !important;
+}
+
+.footer-box img{
+    width: 120px;
+    margin-bottom: 20px;
+}
+
+.footer-box .fa{
+    height: 40px;
+    width: 40px;
+    font-size: 25px;
+    margin-right: 8px;
+    text-align: center;
+    /* color: #fff; */
+    padding-top: 7px;
+    border-radius: 2px;
+    background-image: linear-gradient( to right, #a517ba, #5f1782);
+}
+
+.footer-box .form-control{
+    max-width: 250px;
+    margin-top: 25px;
+}
+
+.footer-box .btn-primary{
+    margin-top: 25px;
+    background-image: linear-gradient( to right, #a517ba, #5f1782);
+    border: none !important;
+}
+
+hr{
+    background-color: #fff;
+}
+
+.copyrights{
+    margin-bottom: 0;
+    padding-bottom: 20px;
+    text-align: center;
 }
