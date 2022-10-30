@@ -256,3 +256,15 @@ hr{
     padding-bottom: 20px;
     text-align: center;
 }
+
+/* Portfolio Link */
+
+.portfolio-link{
+    text-decoration: none;
+    transition: .3s ease;
+    font-weight: 600;
+    font-size: 18px;
+}
+.portfolio-link:hover{
+    color: #fff;
+}
